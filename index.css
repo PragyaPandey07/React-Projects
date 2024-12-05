@@ -1,3 +1,62 @@
-#heading{
-    color: hotpink;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 100px;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.body{
+    margin: 0px 200px;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.res-card{
+    background-color: rgb(237, 221, 200);
+    width: 200px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    transform: scale(0.98, 0.98);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+    border-color: rgb(232, 232, 232);
+    box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+}
+
+.res-img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
 }
